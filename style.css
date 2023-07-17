@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,13 +10,161 @@
 body{
     background: #efefef;
 }
-nav{
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'poppins', sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+/* .container {
+    max-width: 1180px;
+    //max width basically used for the difine the max
+    margin-inline: auto;
+    padding-inline: 20px;
+    overflow: hidden;
+} */
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    width: 100%;
+    height: 738px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./images/backgroung_img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    /* justify-content: space-between; */
+    padding: 40px;
+    padding-left: 5%;
+    padding-right: 10%;
+    justify-items: flex-start;
+    gap: 120px;
+}
+
+.links {
+    gap: 90px;
+    margin-inline-start: 300px;
+}
+
+.link a {
+    font-size: 1.375rem;
+    color: #ffffff;
+}
+
+.heading {
+    width: 1000px;
+    color: rgba(255, 255, 255, 0.73);
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 110px;
+    padding-left: 80px;
+    padding-top: 25px;
+}
+
+.heading span {
+    width: 902px;
+    color: rgba(255, 255, 255, 0.73);
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 110px;
+    padding-top: 80px;
+}
+
+.Search-section {
+    width: 942px;
+    height: 54px;
+    position: relative;
+    flex-direction: row;
+    margin-top: 90px;
+    margin-left: 300px;
+}
+
+.search-input input {
+    width: 942px;
+    height: 54px;
+    left: 0px;
+    padding-left: 30px;
+    font-size: 25px;
+    color: #ffffff;
+    /* justify-self: center; */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    backdrop-filter: blur(4px)
+}
+.search-input input ::placeholder{
+    color: #fff;
+}
+
+.search-text-div {
+    width: 174px;
+    height: 54px;
+    left: 768px;
+    top: 0px;
+    position: absolute;
+    background: rgba(244, 249, 0, 0.49);
+    border-radius: 5px
+}
+
+.search-text {
+    left: 818px;
+    top: 14px;
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+
+
+.official-Tracking {
+    width: 373px;
+    height: 54px;
+    background: rgba(255, 184, 0, 0.74);
+    border-radius: 5px;
+    backdrop-filter: blur(4px);
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+
+/* nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: #1876f2;
     padding: 5px 5%;
-    /* Puts the header bar at one place  */
+    //Puts the header bar at one place 
     position: sticky;
     top: 0;
     z-index: 100;
@@ -64,7 +214,7 @@ nav{
     padding: 10px;
     outline: none;
     border: 0;
-}
+} */
 
     /* Common */
 
