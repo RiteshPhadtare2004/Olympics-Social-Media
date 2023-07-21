@@ -132,9 +132,9 @@ body{
 /* Media Query for width <=1024 */
 
 @media screen and (max-width: 1024px){
-    .outer-box{
-        width: 253.5vw;
-        height: 253vh;
+    .outer-box {
+        width: 176.5vw;
+        height: 177vh;
     }
 
     #outer-box-h1{
@@ -149,17 +149,17 @@ body{
     }
 
     .inner-box {
-        top: 20%;
-        left: 70px;
+        top: 26%;
+        left: 144px;
     }
 
     .c1 {
-        top: 20px;
-        left: 10px;
+        top: 95px;
+        left: 66px;
     }
 
     .c2 {
-        top: 480px;
-        right: 10px;
+        top: 562px;
+        right: -241px;
     }
 }
