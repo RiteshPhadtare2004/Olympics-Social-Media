@@ -9,13 +9,14 @@
 body{
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
+    background-color: #0F0F0F;
 }
 
 .outer-box{
     width: 100vw;
     height: 100vh;
     /* background: linear-gradient(to top left , #3ed8ff ,#a8f5ff); */
-    background-color: #0F0F0F;
+    
 }
 
 #outer-box-h1{
@@ -133,8 +134,8 @@ body{
 
 @media screen and (max-width: 1024px){
     .outer-box {
-        width: 176.5vw;
-        height: 177vh;
+        width: 100.5vw;
+        height: 102vh;
     }
 
     #outer-box-h1{
@@ -149,17 +150,18 @@ body{
     }
 
     .inner-box {
-        top: 26%;
-        left: 144px;
+        top: 50%;
+        left: 17px;
+        width: 364px;
     }
 
     .c1 {
-        top: 95px;
-        left: 66px;
+        top: 146px;
+        left: -66px;
     }
 
     .c2 {
-        top: 562px;
-        right: -241px;
+        top: 592px;
+        right: 0px;
     }
 }
