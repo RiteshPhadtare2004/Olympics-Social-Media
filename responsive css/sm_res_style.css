@@ -1,0 +1,74 @@
+@media screen and (max-width: 430px){
+
+    .hero{
+        height: 180vh;
+    }
+
+    .nav-toggle{
+        display: block;
+        margin-right: px;
+    }
+
+    .nav-section{
+        top: 10px;
+        border-radius: 0px;
+    }
+    .Bars{
+        width: 20px;
+        height: 20px;
+        padding-top: 5px;
+    }
+
+    .menus{
+
+        display: none;
+        flex-direction: column;
+    }
+
+    .LogoImg{
+        padding-top: 5px;
+        width: 46px;
+        height: 35px;
+    }
+
+    header{
+        margin-top: 20px;
+    }
+    .header-text h1{
+        font-size: 2.2rem;
+        color: #ffffff;
+        text-shadow: 5px 5px #b5b5b528;
+    }
+
+    .horizontal-line img{
+       display: none;
+    }
+
+    .header-text h2{
+        font-size: 1rem;
+        color: #ffffff;
+        font-weight: 500;
+    }
+
+    .search-section{
+        justify-content: center;
+        margin-top: 1.5%;
+    }
+    .search-input input {
+        width: 200px;
+        height: 14px;
+        border: none;
+        padding-left: 15px;
+        font-size: 8px;
+        border-radius: 2px;
+        backdrop-filter: blur(1px)
+    }
+
+    .search-btn{
+        width: 40px;
+        height: 14px;
+        font-size: 8px;
+        font-weight: 500;
+        border-radius: 2px;
+    }
+}
