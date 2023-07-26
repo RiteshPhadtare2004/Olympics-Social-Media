@@ -1,7 +1,7 @@
 @media screen and (max-width: 430px){
 
     .hero{
-        height: 56vh;
+        height: 217px;
     }
 
     .hero .nav-toggle{
@@ -75,11 +75,15 @@
     main {
         top: 0;
     }
+
+    .left .sidebar {
+        margin-top: 9rem;
+    }
 }
 
 @media screen and (max-width: 376px){
     .hero{
-        height: 49vh;
+        height: 191px;
     }
 
     .hero .header-text h1 {
@@ -90,12 +94,15 @@
     main {
         top: 0;
     }
+    .left .sidebar {
+        margin-top: 8rem;
+    }
 }
 
 
 @media screen and (max-width: 321px){
     .hero{
-        height: 42vh;
+        height: 162px;
     }
 
     .hero .header-text h1 {
@@ -105,5 +112,9 @@
     }
     main {
         top: 0;
+    }
+
+    .left .sidebar {
+        margin-top: 6rem;
     }
 }
