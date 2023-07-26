@@ -1,60 +1,60 @@
 @media screen and (max-width: 430px){
 
     .hero{
-        height: 180vh;
+        height: 56vh;
     }
 
-    .nav-toggle{
+    .hero .nav-toggle{
         display: block;
         margin-right: px;
     }
 
-    .nav-section{
+    .hero .nav-section{
         top: 10px;
         border-radius: 0px;
     }
-    .Bars{
+    .hero .Bars{
         width: 20px;
         height: 20px;
         padding-top: 5px;
     }
 
-    .menus{
+    .hero .menus{
 
         display: none;
         flex-direction: column;
     }
 
-    .LogoImg{
+    .hero .LogoImg{
         padding-top: 5px;
         width: 46px;
         height: 35px;
     }
 
-    header{
+    .hero header{
         margin-top: 20px;
     }
-    .header-text h1{
+    .hero .header-text h1{
         font-size: 2.2rem;
         color: #ffffff;
         text-shadow: 5px 5px #b5b5b528;
     }
 
-    .horizontal-line img{
+    .hero .horizontal-line img{
        display: none;
     }
 
-    .header-text h2{
+    .hero .header-text h2{
         font-size: 1rem;
         color: #ffffff;
         font-weight: 500;
     }
 
-    .search-section{
+    .hero .search-section{
         justify-content: center;
         margin-top: 1.5%;
     }
-    .search-input input {
+    .hero .search-input input {
         width: 200px;
         height: 14px;
         border: none;
@@ -64,11 +64,46 @@
         backdrop-filter: blur(1px)
     }
 
-    .search-btn{
+    .hero .search-btn{
         width: 40px;
         height: 14px;
         font-size: 8px;
         font-weight: 500;
         border-radius: 2px;
+    }
+
+    main {
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .hero{
+        height: 49vh;
+    }
+
+    .hero .header-text h1 {
+        font-size: 1.7rem;
+        color: #ffffff;
+        text-shadow: 5px 5px #b5b5b528;
+    }
+    main {
+        top: 0;
+    }
+}
+
+
+@media screen and (max-width: 321px){
+    .hero{
+        height: 42vh;
+    }
+
+    .hero .header-text h1 {
+        font-size: 1.4rem;
+        color: #ffffff;
+        text-shadow: 5px 5px #b5b5b528;
+    }
+    main {
+        top: 0;
     }
 }
