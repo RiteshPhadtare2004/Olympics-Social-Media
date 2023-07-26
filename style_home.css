@@ -147,9 +147,6 @@
     width: 97px;
 }
 
-.hero .menus{
-    /* flex-basis:730px ; */
-}
 .hero .menus ul{
     justify-content: end;
     gap: 70px;
