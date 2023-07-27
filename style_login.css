@@ -1,39 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Poppins&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     background-color: #0F0F0F;
 }
 
-.outer-box{
+.outer-box {
     width: 100vw;
     height: 100vh;
-    /* background: linear-gradient(to top left , #3ed8ff ,#a8f5ff); */
-    
 }
 
-#outer-box-h1{
+#outer-box-h1 {
     position: fixed;
     font-size: 100px;
     top: 300px;
     left: 20px;
 }
 
-#outer-box-h3{
+#outer-box-h3 {
     position: fixed;
     font-size: 30px;
     top: 430px;
     left: 30px;
 }
 
-#outer-box-div{
+#outer-box-div {
     height: 50px;
     position: fixed;
     border: 0.5px solid white;
@@ -41,16 +39,14 @@ body{
     left: 20px;
 }
 
-.inner-box{
+.inner-box {
     width: 400px;
-    /* margin: 0 auto; */
     position: relative;
     top: 40%;
     left: 60%;
     transform: translateY(-50%);
     padding: 20px 40px;
-    /* background-color: #ffffff09; */
-    background: linear-gradient(to top,rgba(191, 191, 191, 0.31),rgba(0, 0, 0, 0));
+    background: linear-gradient(to top, rgba(191, 191, 191, 0.31), rgba(0, 0, 0, 0));
     backdrop-filter: blur(5px);
     border-radius: 8px;
     border: 0.1px solid rgba(175, 175, 175, 1);
@@ -58,32 +54,32 @@ body{
     z-index: 2;
 }
 
-.signup-header h1{
+.signup-header h1 {
     font-size: 2.5rem;
     color: #FFFFFF;
     text-align: center;
 }
 
-.signup-header p{
+.signup-header p {
     font-size: 0.9rem;
     color: #b4b4b4;
     text-align: center;
 }
 
-.signup-body{
+.signup-body {
     margin: 20px 0;
 }
 
-.signup-body p{
+.signup-body p {
     margin: 10px 0;
 }
 
-.signup-body p label{
+.signup-body p label {
     display: block;
     font-weight: bold;
 }
 
-.signup-body p input{
+.signup-body p input {
     width: 100%;
     padding: 10px;
     border: 2px solid #ccc;
@@ -92,59 +88,60 @@ body{
     margin-top: 4px;
 }
 
-.signup-body p input[type="submit"]{
-    background: linear-gradient(to right,rgba(98, 142, 255, 1),rgba(135, 64, 205, 1),rgba(88, 4, 117, 1));
+.signup-body p input[type="submit"] {
+    background: linear-gradient(to right, rgba(98, 142, 255, 1), rgba(135, 64, 205, 1), rgba(88, 4, 117, 1));
     border: none;
     color: white;
     cursor: pointer;
 }
 
-.signup-body p input[type="submit"]:hover{
-    background: linear-gradient(to right,rgb(87, 126, 227),rgb(122, 57, 186),rgb(69, 3, 91));
+.signup-body p input[type="submit"]:hover {
+    background: linear-gradient(to right, rgb(87, 126, 227), rgb(122, 57, 186), rgb(69, 3, 91));
 }
 
-.signup-footer p{
+.signup-footer p {
     color: #FFFFFF;
     text-align: center;
 }
 
-.signup-footer p a{
+.signup-footer p a {
     color: rgb(87, 126, 227);
 }
 
-.circle{
+.circle {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background : linear-gradient(to top, rgba(13, 10, 48, 1) , rgba(83, 0, 97, 1));
+    background: linear-gradient(to top, rgba(13, 10, 48, 1), rgba(83, 0, 97, 1));
     position: absolute;
 }
 
-.c1{
+.c1 {
     top: 10px;
     left: 790px;
 }
 
-.c2{
+.c2 {
     bottom: 100px;
     right: 80px;
 }
 
 /* Media Query for width <=1024 */
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .outer-box {
         width: 100.5vw;
         height: 102vh;
     }
 
-    #outer-box-h1{
+    #outer-box-h1 {
         visibility: hidden;
     }
 
-    #outer-box-div{
+    #outer-box-div {
         visibility: hidden;
     }
+
     #outer-box-h3 {
         visibility: hidden;
     }
