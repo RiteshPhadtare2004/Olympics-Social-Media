@@ -20,6 +20,13 @@ menuItems.forEach(item => {
     })
 });
 
+const toggleButton = document.getElementById('menutoggle');
+const navLink = document.getElementById('menus');
+
+toggleButton.addEventListener('click', () => {
+    navLink.classList.toggle('active');
+})
+
 
 
 
