@@ -102,7 +102,7 @@
 
 .hero .flex {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .hero .container {
@@ -159,7 +159,7 @@
 }
 
 header {
-    margin-top: 160px;
+    margin-top: 104px;
 }
 
 .header-section {
@@ -175,13 +175,15 @@ header {
     justify-content: left;
     flex-direction: column;
     align-items: baseline;
-
+    line-height: 125px;
+    margin-left: 80px;
 }
 
 
 .search-section {
     justify-content: center;
-    margin-top: 50px;
+    position: relative;
+    top: 62px;
 }
 
 .search-input input {
@@ -192,9 +194,12 @@ header {
     font-size: 21px;
     font-family: 'Roboto', sans-serif;
     color: #000000;
-    background: rgba(255, 255, 255, 0.251);
+    background: rgba(255, 255, 255, 0.496);
     border-radius: 5px;
     backdrop-filter: blur(2px)
+}
+.search-input input::placeholder{
+    color: #000000;
 }
 
 .search-btn {
